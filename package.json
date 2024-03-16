@@ -1,0 +1,23 @@
+{
+  "name": "campy-js",
+  "version": "1.0.0",
+  "description": "CAMPY JavaScript Client Library",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "astordigital@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.28",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "ecies-wasm": "^0.2.0"
+  }
+}
